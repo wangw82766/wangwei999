@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			var str='a=10&b=60&c=98&d=99&e=11';
+			var arr=str.split('&');
+			var json={};
+			//var arr2=[];
+			for(var i=0;i<arr.length;i++){
+				var arr2=arr[i].split('=')
+				//alert(arr2)
+				console.log(arr2)
+				json[arr2[0]]=arr2[1]
+				console.log(json)
+			}
+			
+			
+			//var str2=arr2.join(':')
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
